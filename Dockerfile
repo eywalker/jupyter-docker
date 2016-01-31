@@ -4,7 +4,7 @@ MAINTAINER Edgar Y. Walker <edgar.walker@gmail.com>
 
 ADD requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt \
-    && rm /requirements.txt
+    && rm /requirements.txt \
     && mkdir /notebooks
 ADD jupyter_notebook_config.py /root/.jupyter/jupyter_notebook_config.py
 EXPOSE 8888
