@@ -1,4 +1,4 @@
-FROM eywalker/pydev:latest
+FROM eywalker/pydev:cuda
 
 MAINTAINER Edgar Y. Walker <edgar.walker@gmail.com>
 
