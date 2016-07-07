@@ -11,3 +11,5 @@ EXPOSE 8888
 VOLUME /notebooks
 WORKDIR /notebooks
 CMD ["/bin/sh", "-c", "jupyter notebook"]
+
+ADD start-singleuser.sh /usr/local/bin/
